@@ -2,7 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const day = require(__dirname + "/date.js");
 const _ = require('lodash');
-
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
