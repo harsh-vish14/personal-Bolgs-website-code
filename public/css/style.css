@@ -1,0 +1,134 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
+}
+
+::-moz-selection {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+::selection {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar {
+  text-decoration: none;
+  background-color: #f9fcfb;
+}
+
+.navbar a {
+  color: #222831;
+}
+
+.content-part {
+  margin-bottom: 50px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: #222831;
+  color: #f9fcfb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.inputs {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.inputs form div {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.inputs form div label {
+  font-weight: 900;
+  letter-spacing: 1.2px;
+}
+
+.inputs form div::-webkit-input-placeholder {
+  opacity: 90%;
+}
+
+.inputs form div:-ms-input-placeholder {
+  opacity: 90%;
+}
+
+.inputs form div::-ms-input-placeholder {
+  opacity: 90%;
+}
+
+.inputs form div::placeholder {
+  opacity: 90%;
+}
+
+.inputs form div button {
+  background-color: green;
+}
+
+.inputs form div button:hover {
+  background-color: darkgreen;
+}
+
+.content-part {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  background-color: #f9fcfb;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.content-part .blog-content {
+  margin-top: 20px;
+}
+
+.content-part .blog-content .title {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.content-part .blog-content .title .dateDisplay {
+  font-size: 12px;
+  opacity: 50%;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.contenting {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*# sourceMappingURL=style.css.map */

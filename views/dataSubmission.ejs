@@ -1,0 +1,19 @@
+<%- include("partials/header") %>
+    <div class="inputs">
+        <form action="/" method="post">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Title</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter blog Title...."
+                    autocomplete="off" name="title">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Contents</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="enter your blog content" name="content"></textarea>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Publish</button>
+            </div>
+        </form>
+    </div>
+    <%- include("partials/footer.ejs") %>

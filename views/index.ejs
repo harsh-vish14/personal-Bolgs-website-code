@@ -1,0 +1,18 @@
+<%- include("partials/header") %>
+    <div class="content-part">
+        <% details.forEach(details=> { %>
+            <div class="blog-content">
+                <div class="title">
+                    <%= details.title %>
+                        <div class="dateDisplay">
+                            <%= details.date %>
+                        </div>
+                </div>
+                <div class="contenting">
+                    <%= details.content %>
+                </div>
+                <a href="/blog/<%= details.title %>">Read More</a>
+            </div>
+            <% }) %>
+    </div>
+    <%- include("partials/footer") %>
