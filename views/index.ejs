@@ -11,7 +11,7 @@
                 <div class="contenting">
                     <%= details.content %>
                 </div>
-                <a href="/blog/<%= details.title %>">Read More</a>
+                <a href="/blog/<%= details.title.replace(/ /g, '-')%>">Read More</a>
             </div>
             <% }) %>
     </div>
